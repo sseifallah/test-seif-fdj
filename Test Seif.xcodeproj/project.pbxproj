@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045FE9EA2836530E00ABF8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9E92836530E00ABF8AC /* AppDelegate.swift */; };
+		045FE9EC2836530E00ABF8AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */; };
+		045FE9EE2836530E00ABF8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9ED2836530E00ABF8AC /* ViewController.swift */; };
+		045FE9F12836530E00ABF8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9EF2836530E00ABF8AC /* Main.storyboard */; };
+		045FE9F32836530F00ABF8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9F22836530F00ABF8AC /* Assets.xcassets */; };
+		045FE9F62836530F00ABF8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */; };
+		045FEA012836530F00ABF8AC /* Test_SeifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA002836530F00ABF8AC /* Test_SeifTests.swift */; };
+		045FEA0B2836530F00ABF8AC /* Test_SeifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA0A2836530F00ABF8AC /* Test_SeifUITests.swift */; };
+		045FEA0D2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA0C2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045FE9FD2836530F00ABF8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045FE9DE2836530E00ABF8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045FE9E52836530E00ABF8AC;
+			remoteInfo = "Test Seif";
+		};
+		045FEA072836530F00ABF8AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045FE9DE2836530E00ABF8AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045FE9E52836530E00ABF8AC;
+			remoteInfo = "Test Seif";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045FE9E62836530E00ABF8AC /* Test Seif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Seif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FE9E92836530E00ABF8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		045FE9ED2836530E00ABF8AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		045FE9F02836530E00ABF8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		045FE9F22836530F00ABF8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045FE9F52836530F00ABF8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		045FE9F72836530F00ABF8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045FE9FC2836530F00ABF8AC /* Test SeifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test SeifTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FEA002836530F00ABF8AC /* Test_SeifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SeifTests.swift; sourceTree = "<group>"; };
+		045FEA062836530F00ABF8AC /* Test SeifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test SeifUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045FEA0A2836530F00ABF8AC /* Test_SeifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SeifUITests.swift; sourceTree = "<group>"; };
+		045FEA0C2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SeifUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		045FE9E32836530E00ABF8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FE9F92836530F00ABF8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FEA032836530F00ABF8AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045FE9DD2836530E00ABF8AC = {
+			isa = PBXGroup;
+			children = (
+				045FE9E82836530E00ABF8AC /* Test Seif */,
+				045FE9FF2836530F00ABF8AC /* Test SeifTests */,
+				045FEA092836530F00ABF8AC /* Test SeifUITests */,
+				045FE9E72836530E00ABF8AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		045FE9E72836530E00ABF8AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				045FE9E62836530E00ABF8AC /* Test Seif.app */,
+				045FE9FC2836530F00ABF8AC /* Test SeifTests.xctest */,
+				045FEA062836530F00ABF8AC /* Test SeifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		045FE9E82836530E00ABF8AC /* Test Seif */ = {
+			isa = PBXGroup;
+			children = (
+				045FE9E92836530E00ABF8AC /* AppDelegate.swift */,
+				045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */,
+				045FE9ED2836530E00ABF8AC /* ViewController.swift */,
+				045FE9EF2836530E00ABF8AC /* Main.storyboard */,
+				045FE9F22836530F00ABF8AC /* Assets.xcassets */,
+				045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */,
+				045FE9F72836530F00ABF8AC /* Info.plist */,
+			);
+			path = "Test Seif";
+			sourceTree = "<group>";
+		};
+		045FE9FF2836530F00ABF8AC /* Test SeifTests */ = {
+			isa = PBXGroup;
+			children = (
+				045FEA002836530F00ABF8AC /* Test_SeifTests.swift */,
+			);
+			path = "Test SeifTests";
+			sourceTree = "<group>";
+		};
+		045FEA092836530F00ABF8AC /* Test SeifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				045FEA0A2836530F00ABF8AC /* Test_SeifUITests.swift */,
+				045FEA0C2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift */,
+			);
+			path = "Test SeifUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		045FE9E52836530E00ABF8AC /* Test Seif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FEA102836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test Seif" */;
+			buildPhases = (
+				045FE9E22836530E00ABF8AC /* Sources */,
+				045FE9E32836530E00ABF8AC /* Frameworks */,
+				045FE9E42836530E00ABF8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Seif";
+			productName = "Test Seif";
+			productReference = 045FE9E62836530E00ABF8AC /* Test Seif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		045FE9FB2836530F00ABF8AC /* Test SeifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FEA132836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifTests" */;
+			buildPhases = (
+				045FE9F82836530F00ABF8AC /* Sources */,
+				045FE9F92836530F00ABF8AC /* Frameworks */,
+				045FE9FA2836530F00ABF8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045FE9FE2836530F00ABF8AC /* PBXTargetDependency */,
+			);
+			name = "Test SeifTests";
+			productName = "Test SeifTests";
+			productReference = 045FE9FC2836530F00ABF8AC /* Test SeifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		045FEA052836530F00ABF8AC /* Test SeifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045FEA162836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifUITests" */;
+			buildPhases = (
+				045FEA022836530F00ABF8AC /* Sources */,
+				045FEA032836530F00ABF8AC /* Frameworks */,
+				045FEA042836530F00ABF8AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045FEA082836530F00ABF8AC /* PBXTargetDependency */,
+			);
+			name = "Test SeifUITests";
+			productName = "Test SeifUITests";
+			productReference = 045FEA062836530F00ABF8AC /* Test SeifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045FE9DE2836530E00ABF8AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					045FE9E52836530E00ABF8AC = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					045FE9FB2836530F00ABF8AC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 045FE9E52836530E00ABF8AC;
+					};
+					045FEA052836530F00ABF8AC = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 045FE9E52836530E00ABF8AC;
+					};
+				};
+			};
+			buildConfigurationList = 045FE9E12836530E00ABF8AC /* Build configuration list for PBXProject "Test Seif" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045FE9DD2836530E00ABF8AC;
+			productRefGroup = 045FE9E72836530E00ABF8AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				045FE9E52836530E00ABF8AC /* Test Seif */,
+				045FE9FB2836530F00ABF8AC /* Test SeifTests */,
+				045FEA052836530F00ABF8AC /* Test SeifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		045FE9E42836530E00ABF8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FE9F62836530F00ABF8AC /* LaunchScreen.storyboard in Resources */,
+				045FE9F32836530F00ABF8AC /* Assets.xcassets in Resources */,
+				045FE9F12836530E00ABF8AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FE9FA2836530F00ABF8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FEA042836530F00ABF8AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045FE9E22836530E00ABF8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FE9EE2836530E00ABF8AC /* ViewController.swift in Sources */,
+				045FE9EA2836530E00ABF8AC /* AppDelegate.swift in Sources */,
+				045FE9EC2836530E00ABF8AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FE9F82836530F00ABF8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FEA012836530F00ABF8AC /* Test_SeifTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045FEA022836530F00ABF8AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045FEA0B2836530F00ABF8AC /* Test_SeifUITests.swift in Sources */,
+				045FEA0D2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045FE9FE2836530F00ABF8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045FE9E52836530E00ABF8AC /* Test Seif */;
+			targetProxy = 045FE9FD2836530F00ABF8AC /* PBXContainerItemProxy */;
+		};
+		045FEA082836530F00ABF8AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045FE9E52836530E00ABF8AC /* Test Seif */;
+			targetProxy = 045FEA072836530F00ABF8AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		045FE9EF2836530E00ABF8AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045FE9F02836530E00ABF8AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045FE9F52836530F00ABF8AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		045FEA0E2836530F00ABF8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		045FEA0F2836530F00ABF8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		045FEA112836530F00ABF8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Seif/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-Seif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		045FEA122836530F00ABF8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Seif/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-Seif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		045FEA142836530F00ABF8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-SeifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Seif.app/Test Seif";
+			};
+			name = Debug;
+		};
+		045FEA152836530F00ABF8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-SeifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test Seif.app/Test Seif";
+			};
+			name = Release;
+		};
+		045FEA172836530F00ABF8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-SeifUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Seif";
+			};
+			name = Debug;
+		};
+		045FEA182836530F00ABF8AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-SeifUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Test Seif";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045FE9E12836530E00ABF8AC /* Build configuration list for PBXProject "Test Seif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FEA0E2836530F00ABF8AC /* Debug */,
+				045FEA0F2836530F00ABF8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FEA102836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test Seif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FEA112836530F00ABF8AC /* Debug */,
+				045FEA122836530F00ABF8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FEA132836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FEA142836530F00ABF8AC /* Debug */,
+				045FEA152836530F00ABF8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045FEA162836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045FEA172836530F00ABF8AC /* Debug */,
+				045FEA182836530F00ABF8AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045FE9DE2836530E00ABF8AC /* Project object */;
+}
