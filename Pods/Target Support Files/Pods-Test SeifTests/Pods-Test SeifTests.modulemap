@@ -1,0 +1,6 @@
+framework module Pods_Test_SeifTests {
+  umbrella header "Pods-Test SeifTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

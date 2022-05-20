@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040556962836AD6C0039DEFB /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040556952836AD6C0039DEFB /* SearchTextField.swift */; };
+		040556982836B7FB0039DEFB /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040556972836B7FB0039DEFB /* TeamsCollectionViewCell.swift */; };
+		0405569A2836C0C50039DEFB /* TeamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040556992836C0C50039DEFB /* TeamDetailVC.swift */; };
+		0405569C2836C0D70039DEFB /* TeamDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405569B2836C0D70039DEFB /* TeamDetailPresenter.swift */; };
 		045FE9EA2836530E00ABF8AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9E92836530E00ABF8AC /* AppDelegate.swift */; };
 		045FE9EC2836530E00ABF8AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */; };
-		045FE9EE2836530E00ABF8AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FE9ED2836530E00ABF8AC /* ViewController.swift */; };
 		045FE9F12836530E00ABF8AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9EF2836530E00ABF8AC /* Main.storyboard */; };
 		045FE9F32836530F00ABF8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9F22836530F00ABF8AC /* Assets.xcassets */; };
 		045FE9F62836530F00ABF8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */; };
 		045FEA012836530F00ABF8AC /* Test_SeifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA002836530F00ABF8AC /* Test_SeifTests.swift */; };
 		045FEA0B2836530F00ABF8AC /* Test_SeifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA0A2836530F00ABF8AC /* Test_SeifUITests.swift */; };
 		045FEA0D2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA0C2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift */; };
+		045FEA1F28366BBA00ABF8AC /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA1E28366BBA00ABF8AC /* APIService.swift */; };
+		045FEA2228366F5D00ABF8AC /* LeagueTeams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA2128366F5D00ABF8AC /* LeagueTeams.swift */; };
+		045FEA2428366F6500ABF8AC /* Leagues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045FEA2328366F6500ABF8AC /* Leagues.swift */; };
+		04FEDD3628367E8C0012D4EE /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEDD3528367E8C0012D4EE /* APIEndpoints.swift */; };
+		04FEDD3828369AA70012D4EE /* LeagueTeamsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEDD3728369AA70012D4EE /* LeagueTeamsListVC.swift */; };
+		04FEDD3A28369DB80012D4EE /* LeagueTeamsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FEDD3928369DB80012D4EE /* LeagueTeamsListPresenter.swift */; };
+		6DC7ACD28D56E656E45869F2 /* Pods_Test_SeifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F80FB7B77E0DDE01849CAAE /* Pods_Test_SeifTests.framework */; };
+		DDC71EA53CC723E855042FD5 /* Pods_Test_Seif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E951818DF88C982CF25DC77 /* Pods_Test_Seif.framework */; };
+		ED62E85F96CB979AD2911B40 /* Pods_Test_Seif_Test_SeifUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9D78317333FE5513168EC1 /* Pods_Test_Seif_Test_SeifUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040556952836AD6C0039DEFB /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		040556972836B7FB0039DEFB /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		040556992836C0C50039DEFB /* TeamDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailVC.swift; sourceTree = "<group>"; };
+		0405569B2836C0D70039DEFB /* TeamDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailPresenter.swift; sourceTree = "<group>"; };
 		045FE9E62836530E00ABF8AC /* Test Seif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Seif.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045FE9E92836530E00ABF8AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		045FE9ED2836530E00ABF8AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		045FE9F02836530E00ABF8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		045FE9F22836530F00ABF8AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045FE9F52836530F00ABF8AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,21 @@
 		045FEA062836530F00ABF8AC /* Test SeifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test SeifUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045FEA0A2836530F00ABF8AC /* Test_SeifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SeifUITests.swift; sourceTree = "<group>"; };
 		045FEA0C2836530F00ABF8AC /* Test_SeifUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_SeifUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		045FEA1E28366BBA00ABF8AC /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		045FEA2128366F5D00ABF8AC /* LeagueTeams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTeams.swift; sourceTree = "<group>"; };
+		045FEA2328366F6500ABF8AC /* Leagues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leagues.swift; sourceTree = "<group>"; };
+		04FEDD3528367E8C0012D4EE /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		04FEDD3728369AA70012D4EE /* LeagueTeamsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTeamsListVC.swift; sourceTree = "<group>"; };
+		04FEDD3928369DB80012D4EE /* LeagueTeamsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTeamsListPresenter.swift; sourceTree = "<group>"; };
+		0E951818DF88C982CF25DC77 /* Pods_Test_Seif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Seif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		108461FA5595428CECB62C29 /* Pods-Test Seif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Seif.debug.xcconfig"; path = "Target Support Files/Pods-Test Seif/Pods-Test Seif.debug.xcconfig"; sourceTree = "<group>"; };
+		18CC3314A133F9B45427AFD2 /* Pods-Test Seif-Test SeifUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Seif-Test SeifUITests.release.xcconfig"; path = "Target Support Files/Pods-Test Seif-Test SeifUITests/Pods-Test Seif-Test SeifUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DED26DBD6B9F29AE938F18C /* Pods-Test SeifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test SeifTests.debug.xcconfig"; path = "Target Support Files/Pods-Test SeifTests/Pods-Test SeifTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F80FB7B77E0DDE01849CAAE /* Pods_Test_SeifTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_SeifTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C9BE71B4AA09B649467EEFC /* Pods-Test Seif-Test SeifUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Seif-Test SeifUITests.debug.xcconfig"; path = "Target Support Files/Pods-Test Seif-Test SeifUITests/Pods-Test Seif-Test SeifUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1D4941D0F0DCA39E0BD224 /* Pods-Test SeifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test SeifTests.release.xcconfig"; path = "Target Support Files/Pods-Test SeifTests/Pods-Test SeifTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF9D78317333FE5513168EC1 /* Pods_Test_Seif_Test_SeifUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Seif_Test_SeifUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AC432EB50E800DC717DBFD /* Pods-Test Seif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Seif.release.xcconfig"; path = "Target Support Files/Pods-Test Seif/Pods-Test Seif.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC71EA53CC723E855042FD5 /* Pods_Test_Seif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DC7ACD28D56E656E45869F2 /* Pods_Test_SeifTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED62E85F96CB979AD2911B40 /* Pods_Test_Seif_Test_SeifUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040827042837A0ED002C7AB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				040556952836AD6C0039DEFB /* SearchTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		045FE9DD2836530E00ABF8AC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				045FE9FF2836530F00ABF8AC /* Test SeifTests */,
 				045FEA092836530F00ABF8AC /* Test SeifUITests */,
 				045FE9E72836530E00ABF8AC /* Products */,
+				D68515BFA303BBFFF9A4A9C9 /* Pods */,
+				CB2FB2F12D5AB36EE84D3B39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +142,11 @@
 		045FE9E82836530E00ABF8AC /* Test Seif */ = {
 			isa = PBXGroup;
 			children = (
-				045FE9E92836530E00ABF8AC /* AppDelegate.swift */,
-				045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */,
-				045FE9ED2836530E00ABF8AC /* ViewController.swift */,
-				045FE9EF2836530E00ABF8AC /* Main.storyboard */,
-				045FE9F22836530F00ABF8AC /* Assets.xcassets */,
-				045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */,
-				045FE9F72836530F00ABF8AC /* Info.plist */,
+				040827042837A0ED002C7AB6 /* Utils */,
+				045FEA1A283654E100ABF8AC /* Services */,
+				045FEA2028366F3C00ABF8AC /* Models */,
+				045FEA192836538F00ABF8AC /* Scenes */,
+				045FEA1D283655A200ABF8AC /* Supporting Files */,
 			);
 			path = "Test Seif";
 			sourceTree = "<group>";
@@ -127,6 +168,88 @@
 			path = "Test SeifUITests";
 			sourceTree = "<group>";
 		};
+		045FEA192836538F00ABF8AC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				045FEA1B2836550C00ABF8AC /* League Teams List */,
+				045FEA1C2836554100ABF8AC /* Team Detail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		045FEA1A283654E100ABF8AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				045FEA1E28366BBA00ABF8AC /* APIService.swift */,
+				04FEDD3528367E8C0012D4EE /* APIEndpoints.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		045FEA1B2836550C00ABF8AC /* League Teams List */ = {
+			isa = PBXGroup;
+			children = (
+				04FEDD3728369AA70012D4EE /* LeagueTeamsListVC.swift */,
+				04FEDD3928369DB80012D4EE /* LeagueTeamsListPresenter.swift */,
+				040556972836B7FB0039DEFB /* TeamsCollectionViewCell.swift */,
+			);
+			path = "League Teams List";
+			sourceTree = "<group>";
+		};
+		045FEA1C2836554100ABF8AC /* Team Detail */ = {
+			isa = PBXGroup;
+			children = (
+				040556992836C0C50039DEFB /* TeamDetailVC.swift */,
+				0405569B2836C0D70039DEFB /* TeamDetailPresenter.swift */,
+			);
+			path = "Team Detail";
+			sourceTree = "<group>";
+		};
+		045FEA1D283655A200ABF8AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				045FE9E92836530E00ABF8AC /* AppDelegate.swift */,
+				045FE9EB2836530E00ABF8AC /* SceneDelegate.swift */,
+				045FE9EF2836530E00ABF8AC /* Main.storyboard */,
+				045FE9F22836530F00ABF8AC /* Assets.xcassets */,
+				045FE9F42836530F00ABF8AC /* LaunchScreen.storyboard */,
+				045FE9F72836530F00ABF8AC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		045FEA2028366F3C00ABF8AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				045FEA2128366F5D00ABF8AC /* LeagueTeams.swift */,
+				045FEA2328366F6500ABF8AC /* Leagues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB2FB2F12D5AB36EE84D3B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E951818DF88C982CF25DC77 /* Pods_Test_Seif.framework */,
+				AF9D78317333FE5513168EC1 /* Pods_Test_Seif_Test_SeifUITests.framework */,
+				6F80FB7B77E0DDE01849CAAE /* Pods_Test_SeifTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D68515BFA303BBFFF9A4A9C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				108461FA5595428CECB62C29 /* Pods-Test Seif.debug.xcconfig */,
+				E5AC432EB50E800DC717DBFD /* Pods-Test Seif.release.xcconfig */,
+				7C9BE71B4AA09B649467EEFC /* Pods-Test Seif-Test SeifUITests.debug.xcconfig */,
+				18CC3314A133F9B45427AFD2 /* Pods-Test Seif-Test SeifUITests.release.xcconfig */,
+				4DED26DBD6B9F29AE938F18C /* Pods-Test SeifTests.debug.xcconfig */,
+				9A1D4941D0F0DCA39E0BD224 /* Pods-Test SeifTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FEA102836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test Seif" */;
 			buildPhases = (
+				2123D8FE2696B3D4AD53F575 /* [CP] Check Pods Manifest.lock */,
 				045FE9E22836530E00ABF8AC /* Sources */,
 				045FE9E32836530E00ABF8AC /* Frameworks */,
 				045FE9E42836530E00ABF8AC /* Resources */,
+				7BEF60C6E0EF1867B152BCCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FEA132836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifTests" */;
 			buildPhases = (
+				0E86AC835AFB9C3C4E83A673 /* [CP] Check Pods Manifest.lock */,
 				045FE9F82836530F00ABF8AC /* Sources */,
 				045FE9F92836530F00ABF8AC /* Frameworks */,
 				045FE9FA2836530F00ABF8AC /* Resources */,
@@ -169,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045FEA162836530F00ABF8AC /* Build configuration list for PBXNativeTarget "Test SeifUITests" */;
 			buildPhases = (
+				83B49610E177B80A07ADBA23 /* [CP] Check Pods Manifest.lock */,
 				045FEA022836530F00ABF8AC /* Sources */,
 				045FEA032836530F00ABF8AC /* Frameworks */,
 				045FEA042836530F00ABF8AC /* Resources */,
+				677A3090FD4A54629AB9B236 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +381,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E86AC835AFB9C3C4E83A673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test SeifTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2123D8FE2696B3D4AD53F575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Seif-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677A3090FD4A54629AB9B236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Seif-Test SeifUITests/Pods-Test Seif-Test SeifUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Seif-Test SeifUITests/Pods-Test Seif-Test SeifUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Seif-Test SeifUITests/Pods-Test Seif-Test SeifUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEF60C6E0EF1867B152BCCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Seif/Pods-Test Seif-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Seif/Pods-Test Seif-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Seif/Pods-Test Seif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B49610E177B80A07ADBA23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Seif-Test SeifUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045FE9E22836530E00ABF8AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045FE9EE2836530E00ABF8AC /* ViewController.swift in Sources */,
+				045FEA2428366F6500ABF8AC /* Leagues.swift in Sources */,
+				0405569A2836C0C50039DEFB /* TeamDetailVC.swift in Sources */,
+				04FEDD3628367E8C0012D4EE /* APIEndpoints.swift in Sources */,
+				04FEDD3A28369DB80012D4EE /* LeagueTeamsListPresenter.swift in Sources */,
+				045FEA2228366F5D00ABF8AC /* LeagueTeams.swift in Sources */,
+				04FEDD3828369AA70012D4EE /* LeagueTeamsListVC.swift in Sources */,
+				0405569C2836C0D70039DEFB /* TeamDetailPresenter.swift in Sources */,
 				045FE9EA2836530E00ABF8AC /* AppDelegate.swift in Sources */,
+				045FEA1F28366BBA00ABF8AC /* APIService.swift in Sources */,
 				045FE9EC2836530E00ABF8AC /* SceneDelegate.swift in Sources */,
+				040556962836AD6C0039DEFB /* SearchTextField.swift in Sources */,
+				040556982836B7FB0039DEFB /* TeamsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +672,7 @@
 		};
 		045FEA112836530F00ABF8AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108461FA5595428CECB62C29 /* Pods-Test Seif.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -439,7 +680,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test Seif/Info.plist";
+				INFOPLIST_FILE = "Test Seif/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -449,8 +690,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-Seif";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdj.seif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,6 +701,7 @@
 		};
 		045FEA122836530F00ABF8AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AC432EB50E800DC717DBFD /* Pods-Test Seif.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +709,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = T74WQ6ZJ2J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test Seif/Info.plist";
+				INFOPLIST_FILE = "Test Seif/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -477,8 +719,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fdj.Test-Seif";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fdj.seif;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,6 +730,7 @@
 		};
 		045FEA142836530F00ABF8AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DED26DBD6B9F29AE938F18C /* Pods-Test SeifTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +751,7 @@
 		};
 		045FEA152836530F00ABF8AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1D4941D0F0DCA39E0BD224 /* Pods-Test SeifTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +772,7 @@
 		};
 		045FEA172836530F00ABF8AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9BE71B4AA09B649467EEFC /* Pods-Test Seif-Test SeifUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +791,7 @@
 		};
 		045FEA182836530F00ABF8AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CC3314A133F9B45427AFD2 /* Pods-Test Seif-Test SeifUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

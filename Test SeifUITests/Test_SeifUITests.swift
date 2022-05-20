@@ -23,11 +23,23 @@ class Test_SeifUITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        //Search for the first textfield on the screen
+        let textField = app.textFields.firstMatch
+        textField.tap()
+        textField.typeText("English Premier League")
+        //Dismiss the keyboard
+        textField.typeText("\n")
+        //A brief waiting time to make sure the API has returned the result
+        sleep(2)
+        //Click on the first team on the collectionView
+        let firstTeam = app.collectionViews.children(matching:.any).element(boundBy: 0)
+        if firstTeam.exists {
+            firstTeam.tap()
+        }
+        //Check if it is Arsenal
+        XCTAssert(app.navigationBars["Arsenal"].exists)
     }
 
     func testLaunchPerformance() throws {
