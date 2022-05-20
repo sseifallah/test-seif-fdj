@@ -1,7 +1,6 @@
 ## Exercice Technique Seifallah Selmi
 ### Développement Front Paris Sportifs
-#
-#
+
 ##### Informations
 - Pattern MVP.
 - Appel API et manipulation à l'aide de Async/Await.
